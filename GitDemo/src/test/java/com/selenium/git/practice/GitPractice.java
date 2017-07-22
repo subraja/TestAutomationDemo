@@ -16,5 +16,13 @@ public class GitPractice {
 		driver.get("Http://www.google.com/");
 		
 	}
-
+   @Test
+public void openBrowser2 () {
+		
+		driver = new ChromeDriver();
+		driver.get("Http://www.google.com/");
+		
+	}
+	
+	
 }
